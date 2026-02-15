@@ -12,3 +12,7 @@ arr1=arr1+5
 print("array after adding 5:", arr1)
 arr2=arr1+arr
 print("array after adding original array:", arr2)   
+arr3=np.sqrt(arr2)
+print("square root of the array:", arr3)
+arr4=np.log(arr2)
+print("logarithm of the array:", arr4)
