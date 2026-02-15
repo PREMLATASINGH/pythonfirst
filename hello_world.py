@@ -45,3 +45,5 @@ def greet(name):
 greeting=greet(name)
 print(greeting)
 print("This is a simple Python program that demonstrates basic operations with NumPy arrays, user input, and functions.")
+for i in range(5):
+    print("Iteration:", i)
