@@ -36,3 +36,11 @@ arr11=arr2.flatten()
 print("flattened array:", arr11)   
 name=input("Enter your name: ")
 print("Hello, " + name + "!")
+person={"name": name, "age": 30, "city": "New York City"}
+print("Person details:", person)
+number=[1, 2, 3, 4, 5]
+print(number[0])
+def greet(name):
+    return "Hello, " + name + "!"   
+greeting=greet(name)
+print(greeting)
