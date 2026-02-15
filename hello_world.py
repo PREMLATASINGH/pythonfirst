@@ -30,4 +30,7 @@ arr8=arr2.size
 print("size of the array:", arr8)
 arr9=arr2.shape     
 print("shape of the array:", arr9)
-arr10=arr2.reshape(5, 1)    
+arr10=arr2.reshape(5, 1) 
+print("reshaped array:", arr10) 
+arr11=arr2.flatten()
+print("flattened array:", arr11)   
