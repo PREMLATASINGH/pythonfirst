@@ -26,3 +26,8 @@ a=np.array([[1, 2], [3, 4]])
 b=np.array([[5, 6], [7, 8]])    
 c=np.dot(a, b)
 print("dot product of a and b:", c)
+arr8=arr2.size
+print("size of the array:", arr8)
+arr9=arr2.shape     
+print("shape of the array:", arr9)
+arr10=arr2.reshape(5, 1)    
