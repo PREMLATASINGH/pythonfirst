@@ -47,3 +47,8 @@ print(greeting)
 print("This is a simple Python program that demonstrates basic operations with NumPy arrays, user input, and functions.")
 for i in range(5):
     print("Iteration:", i)
+
+a=5
+b=10
+sum=a+b 
+print("The sum of a and b is:", sum)
