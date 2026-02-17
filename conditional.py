@@ -25,3 +25,8 @@ if x>=0:
         print("The number is even.")    
     else:        print("The number is odd.")
 else:    print("The number is negative.")
+y=int(input("Enter a year: "))
+if (y%4==0 and y%100!=0) or (y%400==0):
+    print("The year is a leap year.")   
+else:    print("The year is not a leap year.")  
+
