@@ -5,5 +5,5 @@ for i in range(1, 10, 3):
 for i in  range(10, 0, -2):
     print(i)
 str1="Hello"
-for char in str1:
-    print(char)
+for i in str1:
+    print(i)
