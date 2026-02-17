@@ -7,3 +7,7 @@ for i in  range(10, 0, -2):
 str1="Hello"
 for i in str1:
     print(i)
+count=0
+while count<5:
+    print(count)
+    count+=1
