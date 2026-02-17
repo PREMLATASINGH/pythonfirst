@@ -17,3 +17,11 @@ elif age<20:
     print("You are a teenager.")
 else:
     print("You are an adult.")
+
+x=int(input("Enter a number: "))
+if x>=0:
+    print("The number is non-negative.")
+    if x%2==0:
+        print("The number is even.")    
+    else:        print("The number is odd.")
+else:    print("The number is negative.")
