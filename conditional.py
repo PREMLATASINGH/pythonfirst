@@ -10,7 +10,7 @@ b=int(input("Enter a number: "))
 if b>=18:
     print("You are an adult.")
 else:    print("You are a minor.") 
-age=20
+age=12
 if age<13:
     print("You are a child.")
 elif age<20:
