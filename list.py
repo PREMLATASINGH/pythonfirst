@@ -3,3 +3,5 @@ print(type(lst))
 name=["John","Alice","Bob",1,3.14]
 print(name)
 print(name[0])
+mixed_list=[1,"Hello",3.14,True]
+print(mixed_list)
