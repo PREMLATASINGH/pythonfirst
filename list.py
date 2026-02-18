@@ -1,0 +1,2 @@
+lst=[]
+print(type(lst))
