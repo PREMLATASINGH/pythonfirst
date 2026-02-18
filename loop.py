@@ -28,3 +28,6 @@ for i in range(10):
     if i==6:
         continue                    
     print(i)
+for i in range(3):
+    for j in range(2):
+        print(i,j)
