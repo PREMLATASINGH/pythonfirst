@@ -21,6 +21,6 @@ while count<10:
         print(count)
     count+=1
 for i in range(10):
-    if i==5:
+    if i==6:
         break                       
     print(i)
