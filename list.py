@@ -7,3 +7,5 @@ mixed_list=[1,"Hello",3.14,True]
 print(mixed_list)
 print(mixed_list[1])
 print(mixed_list[-1])
+fruits=["apple","banana","cherry"]  
+print(fruits[0:2])
