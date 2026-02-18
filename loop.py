@@ -38,6 +38,6 @@ while count<=n:
     sum+=count
     count+=1    
 print(sum)
-for i in range(10):
-    sum=sum+i  
+for i in range(11):
+    sum=0 
 print(sum)
