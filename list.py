@@ -19,3 +19,5 @@ fruits[1]="kiwi"
 print(fruits)
 fruits.remove("banana")
 print(fruits)
+fruits.remove("orange")
+print(fruits)
