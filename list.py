@@ -37,4 +37,5 @@ print(fruits)
 numbers=[5,2,9,1,5,6]
 print(numbers[::-1]) 
 numbers.sort()
-print(numbers) 
+print(numbers)
+print(numbers[1:4]) 
