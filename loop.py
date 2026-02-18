@@ -39,5 +39,5 @@ while count<=n:
     count+=1    
 print(sum)
 for i in range(10):
-    sum=sum+1  
+    sum=sum+i  
 print(sum)
