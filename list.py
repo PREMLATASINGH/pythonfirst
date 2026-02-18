@@ -5,3 +5,5 @@ print(name)
 print(name[0])
 mixed_list=[1,"Hello",3.14,True]
 print(mixed_list)
+print(mixed_list[1])
+print(mixed_list[-1])
