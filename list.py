@@ -15,3 +15,5 @@ fruits.append("orange")
 print(fruits)
 fruits.insert(1,"grape")
 print(fruits)
+fruits[1]="kiwi"
+print(fruits)
