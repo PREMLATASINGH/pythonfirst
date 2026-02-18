@@ -17,3 +17,5 @@ fruits.insert(1,"grape")
 print(fruits)
 fruits[1]="kiwi"
 print(fruits)
+fruits.remove("banana")
+print(fruits)
