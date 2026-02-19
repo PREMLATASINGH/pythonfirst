@@ -1,3 +1,6 @@
 my_set={12,15,20,25,30}
 print(my_set)
 print(type(my_set))
+my_empty_set=set()
+print(my_empty_set)
+print(type(my_empty_set))
