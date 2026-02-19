@@ -24,5 +24,4 @@ print(repeated_tuple)
 mixed_tuple*=2
 print(mixed_tuple)
 numbers_tuple=(1,2,3,4,5)
-numbers_tuple[0]=10
-print(numbers_tuple)
+print(len(numbers_tuple))
