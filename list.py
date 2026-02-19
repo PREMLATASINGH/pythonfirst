@@ -43,3 +43,5 @@ lst1=[]
 for i in range(5):
     lst1.append(i*2)
 print(lst1)
+squares=[x**2 for x in range(10)]
+print(squares)
