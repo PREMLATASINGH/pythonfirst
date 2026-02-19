@@ -21,3 +21,5 @@ concatinated_tuple=fruits_tuple+("orange",)
 print(concatinated_tuple)
 repeated_tuple=fruits_tuple*2
 print(repeated_tuple)
+mixed_tuple*=2
+print(mixed_tuple)
