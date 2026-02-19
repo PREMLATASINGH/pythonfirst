@@ -51,3 +51,7 @@ even_numbers=[x for x in range(20) if x%2==0]
 print(even_numbers)
 odd_numbers=[x for x in range(20) if x%2!=0]
 print(odd_numbers)
+list2=[12,15,20,25,30]
+list3=["a","b","c","d","e"]
+pair=[(x,y) for x in list2 for y in list3]
+print(pair)
