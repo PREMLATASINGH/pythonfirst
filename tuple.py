@@ -25,3 +25,4 @@ mixed_tuple*=2
 print(mixed_tuple)
 numbers_tuple=(1,2,3,4,5)
 print(len(numbers_tuple))
+print(numbers_tuple.count(1))
