@@ -45,3 +45,5 @@ for i in range(5):
 print(lst1)
 squares=[x**2 for x in range(10)]
 print(squares)
+cubes=[x**3 for x in range(10)]
+print(cubes)
