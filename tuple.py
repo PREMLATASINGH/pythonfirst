@@ -19,3 +19,5 @@ print(fruits_tuple[1:])
 print(fruits_tuple[:2])
 concatinated_tuple=fruits_tuple+("orange",)
 print(concatinated_tuple)
+repeated_tuple=fruits_tuple*2
+print(repeated_tuple)
