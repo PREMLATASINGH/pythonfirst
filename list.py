@@ -55,3 +55,6 @@ list2=[12,15,20,25,30]
 list3=["a","b","c","d","e"]
 pair=[(x,y) for x in list2 for y in list3]
 print(pair)
+words=["hello","world","python","programming"]
+lengths=[len(word) for word in words]
+print(lengths)
