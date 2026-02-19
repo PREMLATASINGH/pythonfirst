@@ -39,3 +39,7 @@ print(numbers[::-1])
 numbers.sort()
 print(numbers)
 print(numbers[1:4]) 
+lst1=[]
+for i in range(5):
+    lst1.append(i*2)
+print(lst1)
