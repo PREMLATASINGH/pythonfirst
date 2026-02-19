@@ -48,3 +48,5 @@ print(tup1[1][0])
 print(tup1[2][1:])
 for item in tup1:
     print(item)
+for i in range(len(tup1)):
+    print(tup1[i])
