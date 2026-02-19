@@ -38,3 +38,5 @@ first,*middle,last=packed_tuple
 print(first)
 print(middle)
 print(last)
+lst1=[[1,2,3],[123,4,5],[6,7,8]]
+print(lst1[0])
