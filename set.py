@@ -4,3 +4,5 @@ print(type(my_set))
 my_empty_set=set()
 print(my_empty_set)
 print(type(my_empty_set))
+my_set={1,4,2,3,2,3,4}
+print(my_set)
