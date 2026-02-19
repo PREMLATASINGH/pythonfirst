@@ -34,3 +34,7 @@ print(a)
 print(b)
 print(c)
 print(d)
+first,*middle,last=packed_tuple
+print(first)
+print(middle)
+print(last)
