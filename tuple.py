@@ -41,3 +41,4 @@ print(last)
 lst1=[[1,2,3],[123,4,5],[6,7,8]]
 print(lst1[0])
 print(lst1[1][0])
+print(lst1[2][1:])
