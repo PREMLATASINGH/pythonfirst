@@ -1,3 +1,7 @@
 empty_tuple=()
 print(empty_tuple)
 print(type(empty_tuple))
+lst=list()
+print(type(lst))
+tup=tuple()
+print(type(tup))
