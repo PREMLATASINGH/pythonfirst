@@ -29,3 +29,8 @@ print(numbers_tuple.count(1))
 print(numbers_tuple.index(3))
 packed_tuple=1,"Hello",3.14,True
 print(packed_tuple)
+a,b,c,d=packed_tuple
+print(a)    
+print(b)
+print(c)
+print(d)
