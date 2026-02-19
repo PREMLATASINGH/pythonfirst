@@ -27,3 +27,5 @@ numbers_tuple=(1,2,3,4,5)
 print(len(numbers_tuple))
 print(numbers_tuple.count(1))
 print(numbers_tuple.index(3))
+packed_tuple=1,"Hello",3.14,True
+print(packed_tuple)
