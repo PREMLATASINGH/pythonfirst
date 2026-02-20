@@ -32,3 +32,5 @@ inersection=set1 & set2
 print(inersection)
 difference_set=set1.difference(set2)
 print(difference_set)
+difference=set1 - set2
+print(difference)
