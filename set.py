@@ -24,3 +24,5 @@ set1={1,2,3,4,4,5}
 set2={4,5,6,7}
 union_set=set1.union(set2)
 print(union_set)
+union=set1 | set2
+print(union)
