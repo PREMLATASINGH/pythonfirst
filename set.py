@@ -20,3 +20,7 @@ print(my_set)
 my_set={1,2,3}
 print(3 in my_set)
 print(4 in my_set)
+set1={1,2,3,4,4,5}
+set2={4,5,6,7}
+union_set=set1.union(set2)
+print(union_set)
