@@ -26,3 +26,5 @@ union_set=set1.union(set2)
 print(union_set)
 union=set1 | set2
 print(union)
+intersection_set=set1.intersection(set2)
+print(intersection_set)
