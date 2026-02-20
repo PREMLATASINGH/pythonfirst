@@ -23,3 +23,6 @@ my_dict.pop("age")
 print(my_dict)
 my_dict.clear()
 print(my_dict)
+my_dict={"name":"Alice","age":30,"city":"New York"}
+print("name" in my_dict)
+print("country" in my_dict)
