@@ -38,3 +38,5 @@ symmetric_difference_set=set1.symmetric_difference(set2)
 print(symmetric_difference_set)
 symmetric_difference=set1 ^ set2
 print(symmetric_difference)
+set1.intersection_update(set2)
+print(set1)
