@@ -34,3 +34,8 @@ print(my_dict_copy)
 print(my_dict_copy is my_dict)
 my_dict_copy["age"]=31  
 print(my_dict)
+my_dict_copy=my_dict.copy()
+print(my_dict_copy)
+
+my_dict_copy["age"]=33
+print(my_dict)
