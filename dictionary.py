@@ -15,3 +15,5 @@ print(my_dict.get("name"))
 print(my_dict.get("country","USA"))
 print(my_dict.get("last_name"))
 print(my_dict.get("last_name","Smith"))
+my_dict["country"]="USA"
+print(my_dict)
