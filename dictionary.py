@@ -11,3 +11,5 @@ print(my_dict)
 my_dict["age"]=31
 print(my_dict)
 print(my_dict["name"])
+print(my_dict.get("name"))
+print(my_dict.get("country","USA"))
