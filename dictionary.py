@@ -29,3 +29,8 @@ print("country" in my_dict)
 print(my_dict.keys())
 print(my_dict.values()) 
 print(my_dict.items())
+my_dict_copy=my_dict
+print(my_dict_copy)
+print(my_dict_copy is my_dict)
+my_dict_copy["age"]=31  
+print(my_dict)
