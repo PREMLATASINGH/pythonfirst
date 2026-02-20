@@ -10,3 +10,4 @@ my_dict={"name":"Alice","age":30,"city":"New York", "name":"Bob"}
 print(my_dict)
 my_dict["age"]=31
 print(my_dict)
+print(my_dict["name"])
