@@ -19,3 +19,5 @@ my_dict["country"]="USA"
 print(my_dict)
 del my_dict["city"]
 print(my_dict)
+my_dict.pop("age")
+print(my_dict)
