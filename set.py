@@ -28,3 +28,5 @@ union=set1 | set2
 print(union)
 intersection_set=set1.intersection(set2)
 print(intersection_set)
+inersection=set1 & set2
+print(inersection)
