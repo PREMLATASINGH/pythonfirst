@@ -44,3 +44,6 @@ set1.issubset(set2)
 print(set1.issubset(set2))
 set1.issuperset(set2)
 print(set1.issuperset(set2))
+lst=[1,2,2,3,4,4,5]
+set(lst)
+print(set(lst))
