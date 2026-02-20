@@ -47,3 +47,6 @@ print(set1.issuperset(set2))
 lst=[1,2,2,3,4,4,5]
 set(lst)
 print(set(lst))
+text="hi i am learning python"
+unique_words=set(text)
+print(unique_words)
