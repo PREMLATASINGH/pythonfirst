@@ -17,3 +17,5 @@ print(removed_item)
 print(my_set)
 my_set.clear()
 print(my_set)
+my_set={1,2,3}
+print(3 in my_set)
