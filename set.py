@@ -40,3 +40,5 @@ symmetric_difference=set1 ^ set2
 print(symmetric_difference)
 set1.intersection_update(set2)
 print(set1)
+set1.issubset(set2)
+print(set1.issubset(set2))
