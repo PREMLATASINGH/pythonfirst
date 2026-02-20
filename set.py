@@ -30,3 +30,5 @@ intersection_set=set1.intersection(set2)
 print(intersection_set)
 inersection=set1 & set2
 print(inersection)
+difference_set=set1.difference(set2)
+print(difference_set)
