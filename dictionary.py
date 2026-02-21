@@ -44,3 +44,5 @@ for key in my_dict:
     print(key)
 for key in my_dict.keys():
     print(key)
+for value in my_dict.values():
+    print(value)
