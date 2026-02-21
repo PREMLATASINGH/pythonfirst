@@ -61,4 +61,4 @@ for student_id, student_info in students.items():
     for key, value in student_info.items():
         print(f"  {key}: {value}")
 squares={x:x**2 for x in range(1,6)}
-print
+print(squares)
