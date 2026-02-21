@@ -42,3 +42,5 @@ print(my_dict)
 print(my_dict_copy)
 for key in my_dict:
     print(key)
+for key in my_dict.keys():
+    print(key)
