@@ -71,3 +71,17 @@ print(even_squares)
 number=(1,2,2,3,4,4,5)
 frequency={x:number.count(x) for x in number}
 print(frequency)
+number=(1,2,2,3,4,4,5)
+frequency={}    
+for x in number:
+    if x not in frequency:
+        frequency[x]=number.count(x)    
+print(frequency)
+number=[1,2,2,3,4,4,5]
+frequency={}
+for x in number:
+    if x in frequency:
+        frequency[x]+=1
+    else:
+        frequency[x]=1  
+print(frequency)
