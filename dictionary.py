@@ -51,3 +51,4 @@ for key, value in my_dict.items():
 students={"student1":{"name":"Alice","age":20,"major":"Computer Science"},
           "student2":{"name":"Bob","age":22,"major":"Mathematics"}    }
 print(students)
+print(students["student1"])
