@@ -52,3 +52,4 @@ students={"student1":{"name":"Alice","age":20,"major":"Computer Science"},
           "student2":{"name":"Bob","age":22,"major":"Mathematics"}    }
 print(students)
 print(students["student1"])
+print(students["student1"]["name"])
