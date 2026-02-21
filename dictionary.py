@@ -56,3 +56,5 @@ print(students["student1"]["name"])
 print(students["student2"])
 print(students["student2"]["name"])
 print(students.items())
+for student_id, student_info in students.items():
+    print(f"{student_id}: {student_info}")
