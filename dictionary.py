@@ -40,3 +40,5 @@ print(my_dict_copy)
 my_dict_copy["age"]=33
 print(my_dict)
 print(my_dict_copy)
+for key in my_dict:
+    print(key)
