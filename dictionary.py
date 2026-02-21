@@ -68,3 +68,6 @@ even={x:x*2 for x in range(1,11) if x%2==0}
 print(even)
 even_squares={x:x**2 for x in range(1,11) if x%2==0}
 print(even_squares)
+number=(1,2,2,3,4,4,5)
+frequency={x:number.count(x) for x in number}
+print(frequency)
