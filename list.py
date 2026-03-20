@@ -58,3 +58,4 @@ print(pair)
 words=["hello","world","python","programming"]
 lengths=[len(word) for word in words]
 print(lengths)
+print(type(lengths))
