@@ -50,3 +50,4 @@ print(set(lst))
 text="hi i am learning python"
 words=set(text.split())
 print(words)
+print(type(words))
