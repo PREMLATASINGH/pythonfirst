@@ -59,3 +59,6 @@ if x%2==0:
 else:    print("The number is odd.")
 if x%3==0:
     print("The number is divisible by 3.")  
+
+if x%5==0:
+    print("this number is divisible by 5")
