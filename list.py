@@ -59,3 +59,7 @@ words=["hello","world","python","programming"]
 lengths=[len(word) for word in words]
 print(lengths)
 print(type(lengths))
+list4=['baij','uday','adu','prema']
+list5=['husband','first_son','second_son','wife']
+pair=[(x,y) for x in list4 for y in list5]
+print(pair)
