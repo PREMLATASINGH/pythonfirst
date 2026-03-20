@@ -51,3 +51,5 @@ text="hi i am learning python"
 words=set(text.split())
 print(words)
 print(type(words))
+lst1=[4,5,6,7,8,9]
+set(lst1)
