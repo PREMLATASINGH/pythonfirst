@@ -64,3 +64,5 @@ list5=['husband','first_son','second_son','wife']
 pair=[(x,y) for x in list4 for y in list5]
 print(pair)
 print(list4.append('husband_dad'))
+print(list4)
+print(list4.pop())
