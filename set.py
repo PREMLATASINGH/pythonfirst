@@ -53,3 +53,4 @@ print(words)
 print(type(words))
 lst1=[4,5,6,7,8,9]
 set(lst1)
+print(lst1)
