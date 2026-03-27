@@ -42,3 +42,6 @@ else:
 
 for i in range(5):
     print(i)
+num1=[1,2,3,4]
+for n in num1:
+    print(n*2)
