@@ -50,3 +50,4 @@ y=2.3
 z='prem'
 print(type(y))
 print(type(z))
+print(type(x))
