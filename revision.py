@@ -17,3 +17,4 @@ data={
     'name':'prem','age':35
 }
 print(data['name'])
+print(data['age'])
