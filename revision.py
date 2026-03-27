@@ -22,3 +22,5 @@ print(type(data))
 marks=[80,89,89]
 print(sum(marks))
 print(type(marks))
+print(marks.append(90))
+print(marks)
