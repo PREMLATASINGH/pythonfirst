@@ -51,3 +51,6 @@ z='prem'
 print(type(y))
 print(type(z))
 print(type(x))
+def add(a,b):
+    return a+b
+print(add(5,3))
