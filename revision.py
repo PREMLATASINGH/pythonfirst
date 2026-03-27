@@ -5,3 +5,5 @@ b=4
 print(a+b)
 print(a-b)
 print(a*b)
+lst=[1,2,4,5]
+print(lst[0])
