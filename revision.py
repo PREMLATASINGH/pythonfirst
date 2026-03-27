@@ -18,3 +18,4 @@ data={
 }
 print(data['name'])
 print(data['age'])
+print(type(data))
