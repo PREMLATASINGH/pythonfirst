@@ -49,3 +49,4 @@ x=2
 y=2.3
 z='prem'
 print(type(y))
+print(type(z))
