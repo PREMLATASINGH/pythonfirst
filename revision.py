@@ -39,3 +39,6 @@ if num%2==0:
 
 else:
     print('odd')
+
+for i in range(5):
+    print(i)
