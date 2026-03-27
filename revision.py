@@ -54,3 +54,6 @@ print(type(x))
 def add(a,b):
     return a+b
 print(add(5,3))
+def sub(a,b):
+    return a-b,a
+print(sub(5,4))
