@@ -12,3 +12,5 @@ print(lst[1])
 print(type(lst))
 tup=(1,2,3,4,5)
 print(type(tup))
+
+print(tup)
