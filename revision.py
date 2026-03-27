@@ -45,3 +45,7 @@ for i in range(5):
 num1=[1,2,3,4]
 for n in num1:
     print(n*2)
+x=2
+y=2.3
+z='prem'
+print(type(y))
