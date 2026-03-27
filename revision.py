@@ -19,3 +19,5 @@ data={
 print(data['name'])
 print(data['age'])
 print(type(data))
+marks=[80,89,89]
+print(sum(marks))
