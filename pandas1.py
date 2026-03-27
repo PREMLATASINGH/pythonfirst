@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = {"name": ["A", "B","c"], "age": [20, 30,40]}
+data = {"name": ["A", "B","C","D"], "age": [20, 30,40,50]}
 df = pd.DataFrame(data)
 print(df)
 print(type(df))
