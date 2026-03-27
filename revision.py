@@ -26,3 +26,9 @@ print(marks.append(90))
 print(marks)
 print(marks.remove(80))
 print(marks)
+age=10
+if age>=18:
+    print('adult')
+
+else:
+    print('minor')
