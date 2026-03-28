@@ -69,5 +69,7 @@ else:
     print('odd')
 for i in range(10):
     print(i)
+number=input('enter the name')
+print(number)
 
 
