@@ -67,5 +67,7 @@ if num1%2==0:
     print('even')
 else:
     print('odd')
+for i in range(10):
+    print(i)
 
 
