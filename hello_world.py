@@ -62,3 +62,10 @@ if x%3==0:
 
 if x%5==0:
     print("this number is divisible by 5")
+num1=4
+if num1%2==0:
+    print('even')
+else:
+    print('odd')
+
+
