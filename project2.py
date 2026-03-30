@@ -39,4 +39,6 @@ print(df["price"].value_counts())
 print(df["region"].value_counts())
 print(df["category"].value_counts())
 print(df["quantity"].value_counts())
+df1=df[df['product']=='laptop']
+print(df1)
 
