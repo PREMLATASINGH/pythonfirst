@@ -46,3 +46,4 @@ print(df2)
 df3=df[(df["sales"].sum())&df["quantity"]>2]
 print(df3)
 
+
