@@ -37,3 +37,5 @@ print(df['region'].unique)
 print(df["product"].value_counts())
 print(df["price"].value_counts())
 print(df["region"].value_counts())
+print(df["category"].value_counts())
+
