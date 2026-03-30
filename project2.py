@@ -41,4 +41,6 @@ print(df["category"].value_counts())
 print(df["quantity"].value_counts())
 df1=df[df['product']=='laptop']
 print(df1)
+df2=df[(df["price"]>800)&(df["region"]=='east')]
+print(df2)
 
