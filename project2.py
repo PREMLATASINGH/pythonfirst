@@ -10,3 +10,5 @@ data={"product":["laptop","phone","chair","table","laptop",'airpot','table'],
 }
 df=pd.DataFrame(data)
 print(df)
+df = df.drop(columns=['date'])
+print(df)
