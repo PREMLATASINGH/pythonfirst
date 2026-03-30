@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data={"name": ["A", "B","C","D","E","F"], "age": [20, 30,40,50,43,54]}
+data={"name": ["A", "B","C","D","E","F","G","H"], "age": [20, 30,40,50,43,54,43,23]}
 
 df=pd.DataFrame(data)
 print(df)
