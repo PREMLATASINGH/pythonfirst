@@ -51,5 +51,7 @@ df5=df.sort_values(by='product',ascending=True)
 print(df5)
 df6=df.rename(columns={'price':'unit_price'})
 print(df6)
+df7=df.sort_values(by='quantity',ascending=False)
+print(df7)
 
 
