@@ -45,5 +45,7 @@ df2=df[(df["price"]>800)&(df["region"]=='east')]
 print(df2)
 df3=df[(df["sales"].sum())&df["quantity"]>2]
 print(df3)
+df4=df.sort_values(by='price',ascending=False)
+print(df4)
 
 
