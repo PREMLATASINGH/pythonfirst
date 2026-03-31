@@ -60,6 +60,6 @@ df = df.rename(columns={'sales': 'total_sales'})
 print(df.columns)
 df8=df.groupby('category')['total_sales'].agg(['sum','mean','max'])
 print(df8)
-df9=df.groupby('category')['total_sales'].mean()
+df9=df.groupby(['category','price'])['total_sales'].mean()
 print(df9)
 
