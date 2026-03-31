@@ -62,7 +62,8 @@ df8=df.groupby('category')['total_sales'].agg(['sum','mean','max'])
 print(df8)
 df9=df.groupby(['category','price'])['total_sales'].mean()
 print(df9)
-df10=df.groupby('product')['total_sales'].sum().sort_values(ascending=False)
+df10=df.groupby(['region','category'])['total_sales'].sum().sort_values(ascending=False)
 print(df10)
+
 
 
