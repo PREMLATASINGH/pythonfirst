@@ -49,7 +49,7 @@ df4=df.sort_values(by='price',ascending=True)
 print(df4)
 df5=df.sort_values(by='product',ascending=True)
 print(df5)
-df6=df[(df["total_sale"].sum())&(df["region"]=='west')]
+df6=df.rename(columns={'price':'unit_price'})
 print(df6)
 
 
