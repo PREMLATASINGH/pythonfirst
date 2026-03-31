@@ -47,5 +47,7 @@ df3=df[(df["sales"].sum())&df["quantity"]>2]
 print(df3)
 df4=df.sort_values(by='price',ascending=True)
 print(df4)
+df5=df.sort_values(by='product',ascending=False)
+print(df5)
 
 
