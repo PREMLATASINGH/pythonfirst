@@ -56,4 +56,5 @@ print(df7)
 df8=df.groupby('category')['total_sales'].agg(['sum','mean','max'])
 print(df8)"""
 print(df.columns)
-
+df = df.rename(columns={'sales': 'total_sales'})
+print(df.columns)
