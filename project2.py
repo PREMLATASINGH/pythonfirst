@@ -64,6 +64,8 @@ df9=df.groupby(['category','price'])['total_sales'].mean()
 print(df9)
 df10=df.groupby(['region','category'])['total_sales'].sum().sort_values(ascending=False)
 print(df10)
+df11=df.groupby('category')['total_sales'].sum().idxmax()
+print(df11)
 
 
 
